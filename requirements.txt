@@ -19,7 +19,7 @@ MarkupSafe==1.1.1
 matplotlib==3.2.0
 networkx==2.4
 numpy==1.18.1
-Pillow==7.0.0
+Pillow==9.2.0
 pipenv==2018.11.26
 PyMySQL==0.9.3
 pyparsing==2.4.6
@@ -33,3 +33,4 @@ virtualenv==20.0.9
 virtualenv-clone==0.5.3
 Werkzeug==1.0.0
 zipp==3.1.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
