@@ -33,3 +33,4 @@ virtualenv==20.0.9
 virtualenv-clone==0.5.3
 Werkzeug==1.0.0
 zipp==3.1.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
